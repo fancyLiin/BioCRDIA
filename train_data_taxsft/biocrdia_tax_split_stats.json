@@ -1,0 +1,74 @@
+{
+  "seed": 42,
+  "total_valid": 4500,
+  "train_total": 3600,
+  "val_total": 450,
+  "test_total": 450,
+  "split_by_error_type": {
+    "NW_BOUNDARY_INITIALIZATION_ERROR": {
+      "total": 500,
+      "train": 400,
+      "val": 50,
+      "test": 50
+    },
+    "NW_GAP_PENALTY_SIGN_ERROR": {
+      "total": 500,
+      "train": 400,
+      "val": 50,
+      "test": 50
+    },
+    "NW_MISMATCH_SCORING_ERROR": {
+      "total": 500,
+      "train": 400,
+      "val": 50,
+      "test": 50
+    },
+    "PWM_LOG_ZERO_NO_PSEUDOCOUNT": {
+      "total": 500,
+      "train": 400,
+      "val": 50,
+      "test": 50
+    },
+    "PWM_PSEUDOCOUNT_DENOMINATOR_ERROR": {
+      "total": 500,
+      "train": 400,
+      "val": 50,
+      "test": 50
+    },
+    "PWM_BACKGROUND_PROBABILITY_ERROR": {
+      "total": 500,
+      "train": 400,
+      "val": 50,
+      "test": 50
+    },
+    "TRANSLATION_STOP_CODON_HANDLING_ERROR": {
+      "total": 500,
+      "train": 400,
+      "val": 50,
+      "test": 50
+    },
+    "TRANSLATION_READING_FRAME_ERROR": {
+      "total": 500,
+      "train": 400,
+      "val": 50,
+      "test": 50
+    },
+    "MUTATION_EFFECT_MISCLASSIFICATION": {
+      "total": 500,
+      "train": 400,
+      "val": 50,
+      "test": 50
+    }
+  },
+  "count_by_error_type": {
+    "NW_BOUNDARY_INITIALIZATION_ERROR": 500,
+    "NW_GAP_PENALTY_SIGN_ERROR": 500,
+    "NW_MISMATCH_SCORING_ERROR": 500,
+    "PWM_LOG_ZERO_NO_PSEUDOCOUNT": 500,
+    "PWM_PSEUDOCOUNT_DENOMINATOR_ERROR": 500,
+    "PWM_BACKGROUND_PROBABILITY_ERROR": 500,
+    "TRANSLATION_STOP_CODON_HANDLING_ERROR": 500,
+    "TRANSLATION_READING_FRAME_ERROR": 500,
+    "MUTATION_EFFECT_MISCLASSIFICATION": 500
+  }
+}
